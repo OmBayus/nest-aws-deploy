@@ -5,10 +5,10 @@ on:
     tags:
       - .*
 env:
-  AWS_REGION: ap-south-1                   
-  ECR_REPOSITORY: demo-repo        
-  ECS_SERVICE: demo-service               
-  ECS_CLUSTER: demo-ecs-cluster              
+  AWS_REGION: eu-west-1                 
+  ECR_REPOSITORY: nest-aws-deploy
+  ECS_SERVICE: nest-aws-deploy             
+  ECS_CLUSTER: nest-aws-deploy             
   ECS_TASK_DEFINITION: .aws/td.json 
   CONTAINER_NAME: nginx
   
